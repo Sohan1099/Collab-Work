@@ -1,7 +1,14 @@
-#include <stdio.h>
+#include<iostream>
+#include<bits/stdc++.h>
+using namespace std;
 
-int main() {
-    int n, first = 0, second = 1, next;
+int fibonacci(){
+//here goes fibonacci
+
+}
+int main()
+{
+       int n, first = 0, second = 1, next;
 
     printf("Enter number of terms: ");
     scanf("%d", &n);
@@ -18,6 +25,5 @@ int main() {
         }
         printf("%d ", next);
     }
-
-    return 0;
+return 0;
 }
